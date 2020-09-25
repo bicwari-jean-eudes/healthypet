@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+body{
+  display: flex;
+  flex-wrap: wrap;
+width: 100vw;
+margin: 0;
+overflow: hidden;
+background-color: black;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+width: 100vw;
+margin: 0;
+background-color: black;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 17vh;
+  margin:0;
+  background-color:white;
+  border-bottom:green solid 0.3vw
+}
+.logoPet{
+  width: 22vw;
+  height: 18vh;
+  background-size: cover;
+}
+#log{
+  align-items: center;
+  display: flex;
+  width: 12vw;
+  height: 15vh;
+  object-fit: cover;
+}
+.caracte{
+  width: 55vw;
+  height:16vh ;
+  padding: 20px;
+}
+.chien{
+display: flex;
+background-size: cover;
+justify-content: center;
+  width: 22vw;
+  height: 17vh;
+  border-radius: 40px;
+}
+#chien2{
+  align-items: center;
+  object-fit: cover;
+  width: 18vw;
+  height: 17vh;
+  border-radius: 40px;
+  background: url(chien-chat.jpg);
+}
+h1{
+  display: flex;
+  align-items: center;
+  font-family: Sofia;
+  width: 40vw;
+  height: 5.09vh;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.33vw;
+  line-height: 6.94vh;
+  color:rgb(63, 243, 78);
+z-index: 999;
+
+}
+span{
+  color: coral
+}
+.service span{
+  color: white;
+  font-size: 1.3vw;
+  margin-top: 20px;
+}
+
+
+h2{
+  align-items: flex-start;
+  width: 45vw;
+  height: 4.16vh;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.77vw;
+  line-height: 6.94vh;
+  color: maroon;
+}
+h3{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.77vw;
+  line-height: 6.94vh;
+  color: white;
+}
+a{
+  text-decoration: none;
+  }
+a.texto-pets h3:hover {
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a.texto-meds h3:hover {
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a.texto-food h3:hover {
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a.texto1 h2:hover {
+  color: green;
+  text-decoration: none;
+}
+
+
+#auteur{
+  display: flex;
+flex-direction: column;
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+  color:black;
+  z-index: 999;
+}
+.group{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 100vw;
+  height: 8vh;
+  border-radius: 5px;
+  background-color:coral;
+}
+#email{
+  display: flex;
+  width: 15vw;
+  height: 3vh;
+  border-radius: 5px;
+  color:black;
+  z-index: 999;
+}
+#submit-btn{
+  width: 5vw;
+  height: 2vh;
+}
+.pets{
+  border-bottom: black solid 0.2vw;
+  width: 100vw;
+  height: 25vh;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: coral;
+}
+p{
+  align-items: flex-start;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.future{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 2.31vh;
+}
+.meds{
+  border-right: black solid 0.1vw;
+  width: 49.9vw;
+  height: 48vh;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: coral;
+}
+.food{
+  width: 50vw;
+  height: 48vh;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: coral;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #050801;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  height: 12vh;
+  background-color: black;
+}
+
+.menu a{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+
+}
+a:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+a span{
+  position: absolute;
+  display: block;
+}
+a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+width: 100vw;
+background-color: black;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+width: 100vw;
+background-color: black;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 17vh;
+}
+.logoPet{
+  width: 20vw;
+}
+#log{
+  width: 20vw;
+}
+.caracte{
+  display: flex;
+  width: 70vw;
+  height:17vh ;
+}
+.chien{
+display: flex;
+justify-content: center;
+  height: 17vh;
+  border-radius: 40px;
+}
+#chien2{
+ display: none;
+}
+h1{
+  display: flex;
+  align-items: flex-end;
+  font-family: Sofia;
+  font-size: large;
+  color:rgb(63, 243, 78);
+z-index: 999;
+}
+h2{
+  display: inline-flex;
+  font-size: x-small;
+  color: maroon;
+  padding-right: 20px;
+}
+.pets{
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 50vh;
+  background-color: coral;
+  border-radius:10px ;
+}
+.future{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-right: black solid 0.1vw;
+  width: 100vw;
+  height: 69vh;
+  background-color: coral;
+  border-radius: 20px;
+}
+.healthy p{
+  position: absolute;
+  top: 29vh;
+  left: 0.5vw;
+  font-size: medium;
+}
+.menu a{
+  position: relative;
+  display: inline-flex;
+  font-size:xx-small;
+  width: 80%;
+  padding: 2px 2px;
+  margin: 5px 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  margin-right: 50px;
+  margin-left:30px;
+
+}
+a:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+a:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+a span{
+  position: absolute;
+  display: block;
+  font-size: xx-small;
+}
+a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
+  }
+}
+.menu{
+  display: block;
+  height:37vh;
+  width:100vw;
+  background-color:black;
+}
+h3{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  font-size: medium;
+}
+.food{
+  width: 50vw;
+  height: 89vh;
+  background-color: coral;
+  border-radius:10px
+}
+p{
+  display: flex;
+  align-items: flex-start;
+  font-size: medium;
+  padding: 5px;
+}
+.meds{
+  height: 89vh;
+  width: 49.8vw;
+  background-color: coral;
+  border-radius:10px ;
+}
+.chien{
+  position: absolute;
+  width: 25vw;
+  height: 14vh;
+  border-radius: 20px;
+  left: 71vw;
+  top: 12px;
+  background: url(chien-chat.jpg);
+}
+#auteur{
+  display: none;
+}
+#email{
+  display: none;
+
+}
+#submit-btn{
+ display: none;
+}
+}

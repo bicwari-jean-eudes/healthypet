@@ -179,14 +179,12 @@ p{
   line-height: 2.31vh;
 }
 .future{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  border-right: black solid 0.1vw;
+  border-bottom: black solid 0.2vw;
   width: 100vw;
-  height: 69vh;
-  background-color: coral;
+  height: 72vh;
+  padding: 10px;
   border-radius: 20px;
+  background-color: coral;
 }
 .healthy{
   display: flex;
